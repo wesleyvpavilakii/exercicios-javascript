@@ -1,0 +1,65 @@
+body { 
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh;
+}
+
+.fundo {
+    position: absolute;
+    background-color: rgb(63, 58, 58);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.entradaDados {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+    font-size: 25px;
+}
+
+.entradaDados:hover {
+    background-color: rgb(204, 45, 45);
+    transition: 3s;
+}
+
+.valor1 {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.valor1:hover {
+    background-color: rgb(204, 45, 45);
+    transition: 3s;
+}
+
+.soma {
+    border-radius: px;
+    right: 30%;
+    position: relative;
+    left: 34%;
+    color: #fff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.soma:hover {
+    background-color: rgb(204, 45, 45);
+    transition: 3s;
+}
+
+.resultado {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.resultado:hover {
+    background-color: rgb(204, 45, 45);
+    transition: 3s;
+}
